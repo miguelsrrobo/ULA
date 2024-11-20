@@ -1,0 +1,13 @@
+module full_adder(input [3:0]a, input [3:0]b, input cin, output [3:0]sum, output c1, output c2);
+	// wire cria variaveis 
+	// VARIAVEIS
+	wire	[3:0]s1;
+	//wire [3:0]cin2;
+	
+	//assign cin2[0] = cin;
+	//assign cin2[1:3] = 3'b0;
+	//PROCESSO
+	half_adder	HA1(a, b, s1, c1);
+	half_adder	#(4)HA2(s1, cin, sum, c2);
+
+endmodule

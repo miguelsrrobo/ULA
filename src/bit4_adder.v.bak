@@ -1,0 +1,5 @@
+module bit4_adder(a,b,c_in);
+
+
+
+endmodule

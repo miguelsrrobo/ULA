@@ -1,0 +1,16 @@
+module flag_circuit(
+    input wire Sum,
+    input wire C_out1,
+    input wire C_out2,
+
+    output N,
+    output C,
+    output V,
+    output Z,
+);
+
+    reg temp1, temp2;
+
+    
+
+endmodule

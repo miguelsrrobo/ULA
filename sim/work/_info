@@ -1,0 +1,176 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\migue\OneDrive\Documentos\lab6\sim
+vbit4_adder
+!i10b 1
+Z1 !s100 ag:CHjoHecP0_0oTmbzEQ3
+Z2 IIH_2Q=FM0XzH06dOA7d_H1
+Z3 V_n<bAAoh?8W<ZJ>=Gd52z0
+Z4 dC:\Users\migue\OneDrive\Documentos\lab5\sim
+Z5 w1682646505
+Z6 8C:/Users/migue/OneDrive/Documentos/lab5/src/bit4_adder.v
+Z7 FC:/Users/migue/OneDrive/Documentos/lab5/src/bit4_adder.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1688085851.645000
+!s107 C:/Users/migue/OneDrive/Documentos/lab5/src/bit4_adder.v|
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/migue/OneDrive/Documentos/lab5/src/bit4_adder.v|
+!s101 -O0
+Z10 o-work work -O0
+vblock_nblock_tb
+Z11 IRQ;UF;O[h7WB5bXQXAd9C2
+Z12 VAe9khBGXb_7TU^mlaf;bJ0
+R4
+Z13 w1682561875
+Z14 8C:\Users\migue\OneDrive\Documentos\lab5\sim\ula_tb.v
+Z15 FC:\Users\migue\OneDrive\Documentos\lab5\sim\ula_tb.v
+L0 1
+R8
+r1
+31
+R10
+Z16 !s100 mVQd`f5<G_OmIFJK_Ri=d2
+Z17 !s108 1682561880.294000
+Z18 !s107 C:\Users\migue\OneDrive\Documentos\lab5\sim\ula_tb.v|
+Z19 !s90 -reportprogress|300|-work|work|C:\Users\migue\OneDrive\Documentos\lab5\sim\ula_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vflag_circuit
+Z20 IJ1bDhh25R8g_;cGg6;8mQ2
+Z21 VW5?:TgGWj2]TjDCD4GQ@_1
+R4
+Z22 w1683672895
+Z23 8C:/Users/migue/OneDrive/Documentos/lab5/src/flag_circuit.v
+Z24 FC:/Users/migue/OneDrive/Documentos/lab5/src/flag_circuit.v
+L0 1
+R8
+r1
+31
+Z25 !s90 -reportprogress|300|-work|work|C:/Users/migue/OneDrive/Documentos/lab5/src/flag_circuit.v|
+R10
+Z26 !s100 2IeR@c4CgzN7KOXYKE^W23
+Z27 !s108 1688085850.809000
+Z28 !s107 C:/Users/migue/OneDrive/Documentos/lab5/src/flag_circuit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfull_adder
+Z29 !s100 mFZJ@V78Hh?5UdDIZ__f>3
+Z30 IFlfNd1EGP=?enPEcj]KH71
+Z31 VNU5<ZV4h2M<RIeOGj[ffl1
+R4
+Z32 w1682647232
+Z33 8C:/Users/migue/OneDrive/Documentos/lab5/src/full_adder.v
+Z34 FC:/Users/migue/OneDrive/Documentos/lab5/src/full_adder.v
+L0 1
+R8
+r1
+31
+Z35 !s90 -reportprogress|300|-work|work|C:/Users/migue/OneDrive/Documentos/lab5/src/full_adder.v|
+R10
+Z36 !s108 1688085850.631000
+Z37 !s107 C:/Users/migue/OneDrive/Documentos/lab5/src/full_adder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vhalf_adder
+Z38 !s100 CH0HXfoh9DY`FESYG[8<l2
+Z39 IV[@F1dkFVeM_k4a1AR:[A1
+Z40 Vi;]XPD]Q[FDiNj9KhN]e[3
+R4
+Z41 w1682645993
+Z42 8C:/Users/migue/OneDrive/Documentos/lab5/src/half_adder.v
+Z43 FC:/Users/migue/OneDrive/Documentos/lab5/src/half_adder.v
+L0 1
+R8
+r1
+31
+Z44 !s90 -reportprogress|300|-work|work|C:/Users/migue/OneDrive/Documentos/lab5/src/half_adder.v|
+R10
+!i10b 1
+!s85 0
+Z45 !s108 1688085851.435000
+Z46 !s107 C:/Users/migue/OneDrive/Documentos/lab5/src/half_adder.v|
+!s101 -O0
+vmux2x1
+Z47 !s100 2mFNQ8e@B?k;49Km[@aH82
+Z48 I9k0MnSc@8DOfbjf:AbTiD1
+Z49 VPz^0[VEcJ4S]fYdXjgWo<2
+R4
+Z50 w1682568170
+Z51 8C:/Users/migue/OneDrive/Documentos/lab5/src/mux2x1.v
+Z52 FC:/Users/migue/OneDrive/Documentos/lab5/src/mux2x1.v
+L0 6
+R8
+r1
+31
+Z53 !s90 -reportprogress|300|-work|work|C:/Users/migue/OneDrive/Documentos/lab5/src/mux2x1.v|
+R10
+Z54 !s108 1688085851.227000
+Z55 !s107 C:/Users/migue/OneDrive/Documentos/lab5/src/mux2x1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2x2
+Z56 !s100 606SoGI:lRS?W>o@>Al@B1
+Z57 I:hPQ<HoGkVJ`X1I<FEjKS3
+Z58 VKF7<TgVYPB:187lnj_72Z0
+R4
+Z59 w1682569483
+Z60 8C:/Users/migue/OneDrive/Documentos/lab5/src/mux2x2.v
+Z61 FC:/Users/migue/OneDrive/Documentos/lab5/src/mux2x2.v
+L0 1
+R8
+r1
+31
+Z62 !s90 -reportprogress|300|-work|work|C:/Users/migue/OneDrive/Documentos/lab5/src/mux2x2.v|
+R10
+Z63 !s108 1688085850.206000
+Z64 !s107 C:/Users/migue/OneDrive/Documentos/lab5/src/mux2x2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vula
+Z65 !s100 5k<0@TR[eWBOFbNmMKhNo0
+Z66 IWK9NCk[fNOID>Eoga763R1
+Z67 VJi:L`bNUJg8G1:K1:Q:nN3
+R4
+Z68 w1682647371
+Z69 8C:/Users/migue/OneDrive/Documentos/lab5/src/ula.v
+Z70 FC:/Users/migue/OneDrive/Documentos/lab5/src/ula.v
+L0 1
+R8
+r1
+31
+Z71 !s90 -reportprogress|300|-work|work|C:/Users/migue/OneDrive/Documentos/lab5/src/ula.v|
+R10
+Z72 !s108 1688085850.446000
+Z73 !s107 C:/Users/migue/OneDrive/Documentos/lab5/src/ula.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vula_tb
+Z74 !s100 HoOLfOeTzNgHI[dF8o?SG2
+Z75 IKdXRXgJo8mPL^AF0Um9b43
+Z76 VFz>J]NzFR_F9GjebiAgFh2
+R4
+Z77 w1682578511
+Z78 8C:/Users/migue/OneDrive/Documentos/lab5/sim/ula_tb.v
+Z79 FC:/Users/migue/OneDrive/Documentos/lab5/sim/ula_tb.v
+L0 1
+R8
+r1
+31
+Z80 !s90 -reportprogress|300|-work|work|C:/Users/migue/OneDrive/Documentos/lab5/sim/ula_tb.v|
+R10
+Z81 !s108 1688085849.854000
+Z82 !s107 C:/Users/migue/OneDrive/Documentos/lab5/sim/ula_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0

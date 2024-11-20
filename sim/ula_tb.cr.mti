@@ -1,0 +1,57 @@
+C:/Users/migue/OneDrive/Documentos/lab5/src/flag_circuit.v {1 {vlog -work work C:/Users/migue/OneDrive/Documentos/lab5/src/flag_circuit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module flag_circuit
+
+Top level modules:
+	flag_circuit
+
+} {} {}} C:/Users/migue/OneDrive/Documentos/lab5/sim/ula_tb.v {1 {vlog -work work C:/Users/migue/OneDrive/Documentos/lab5/sim/ula_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ula_tb
+
+Top level modules:
+	ula_tb
+
+} {} {}} C:/Users/migue/OneDrive/Documentos/lab5/src/mux2x1.v {1 {vlog -work work C:/Users/migue/OneDrive/Documentos/lab5/src/mux2x1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2x1
+
+Top level modules:
+	mux2x1
+
+} {} {}} C:/Users/migue/OneDrive/Documentos/lab5/src/full_adder.v {1 {vlog -work work C:/Users/migue/OneDrive/Documentos/lab5/src/full_adder.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} C:/Users/migue/OneDrive/Documentos/lab5/src/ula.v {1 {vlog -work work C:/Users/migue/OneDrive/Documentos/lab5/src/ula.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ula
+
+Top level modules:
+	ula
+
+} {} {}} C:/Users/migue/OneDrive/Documentos/lab5/src/bit4_adder.v {1 {vlog -work work C:/Users/migue/OneDrive/Documentos/lab5/src/bit4_adder.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module bit4_adder
+
+Top level modules:
+	bit4_adder
+
+} {} {}} C:/Users/migue/OneDrive/Documentos/lab5/src/half_adder.v {1 {vlog -work work C:/Users/migue/OneDrive/Documentos/lab5/src/half_adder.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} C:/Users/migue/OneDrive/Documentos/lab5/src/mux2x2.v {1 {vlog -work work C:/Users/migue/OneDrive/Documentos/lab5/src/mux2x2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2x2
+
+Top level modules:
+	mux2x2
+
+} {} {}}
