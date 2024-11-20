@@ -1,0 +1,229 @@
+|ula
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+a_inv => a_inv.IN1
+b_inv => b_inv.IN1
+c_in => c_in.IN1
+alu_op[0] => alu_op[0].IN1
+alu_op[1] => alu_op[1].IN1
+ALU_out[0] << mux2x2:MM.port5
+ALU_out[1] << mux2x2:MM.port5
+ALU_out[2] << mux2x2:MM.port5
+ALU_out[3] << mux2x2:MM.port5
+N << flag_circuit:FLC.port2
+C << flag_circuit:FLC.port3
+V << flag_circuit:FLC.port4
+Z << flag_circuit:FLC.port5
+
+
+|ula|mux2x1:M1
+a[0] => op.DATAB
+a[1] => op.DATAB
+a[2] => op.DATAB
+a[3] => op.DATAB
+b[0] => op.DATAA
+b[1] => op.DATAA
+b[2] => op.DATAA
+b[3] => op.DATAA
+sel => op.OUTPUTSELECT
+sel => op.OUTPUTSELECT
+sel => op.OUTPUTSELECT
+sel => op.OUTPUTSELECT
+op[0] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[1] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[2] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[3] <= op.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|mux2x1:M2
+a[0] => op.DATAB
+a[1] => op.DATAB
+a[2] => op.DATAB
+a[3] => op.DATAB
+b[0] => op.DATAA
+b[1] => op.DATAA
+b[2] => op.DATAA
+b[3] => op.DATAA
+sel => op.OUTPUTSELECT
+sel => op.OUTPUTSELECT
+sel => op.OUTPUTSELECT
+sel => op.OUTPUTSELECT
+op[0] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[1] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[2] <= op.DB_MAX_OUTPUT_PORT_TYPE
+op[3] <= op.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bit4_adder:BI
+sum[0] <= full_adder:U1.sum
+sum[1] <= full_adder:U2.sum
+sum[2] <= full_adder:U3.sum
+sum[3] <= full_adder:U4.sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+carry_out <= <GND>
+carry_in => carry_in.IN4
+
+
+|ula|bit4_adder:BI|full_adder:U1
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+sum <= half_adder:HA2.port2
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bit4_adder:BI|full_adder:U1|half_adder:HA1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bit4_adder:BI|full_adder:U1|half_adder:HA2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bit4_adder:BI|full_adder:U2
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+sum <= half_adder:HA2.port2
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bit4_adder:BI|full_adder:U2|half_adder:HA1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bit4_adder:BI|full_adder:U2|half_adder:HA2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bit4_adder:BI|full_adder:U3
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+sum <= half_adder:HA2.port2
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bit4_adder:BI|full_adder:U3|half_adder:HA1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bit4_adder:BI|full_adder:U3|half_adder:HA2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bit4_adder:BI|full_adder:U4
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+sum <= half_adder:HA2.port2
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bit4_adder:BI|full_adder:U4|half_adder:HA1
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|bit4_adder:BI|full_adder:U4|half_adder:HA2
+a => sum.IN0
+a => carry.IN0
+b => sum.IN1
+b => carry.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|mux2x2:MM
+a[0] => out[0].DATAB
+a[1] => out[1].DATAB
+a[2] => out[2].DATAB
+a[3] => out[3].DATAB
+b[0] => out[0].DATAB
+b[1] => out[1].DATAB
+b[2] => out[2].DATAB
+b[3] => out[3].DATAB
+c[0] => out[0].DATAB
+c[1] => out[1].DATAB
+c[2] => out[2].DATAB
+c[3] => out[3].DATAB
+d[0] => out[0].DATAA
+d[1] => out[1].DATAA
+d[2] => out[2].DATAA
+d[3] => out[3].DATAA
+sel[0] => Equal0.IN1
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN1
+sel[0] => Equal3.IN1
+sel[1] => Equal0.IN0
+sel[1] => Equal1.IN1
+sel[1] => Equal2.IN0
+sel[1] => Equal3.IN0
+out[0] <= out[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ula|flag_circuit:FLC
+Sum[0] => always0.IN0
+Sum[0] => always0.IN0
+Sum[1] => WideOr1.IN1
+Sum[2] => WideOr1.IN2
+Sum[3] => WideOr1.IN3
+Carry_out => always0.IN1
+Carry_out => C.DATAIN
+Carry_out => always0.IN1
+N <= always0.DB_MAX_OUTPUT_PORT_TYPE
+C <= Carry_out.DB_MAX_OUTPUT_PORT_TYPE
+V <= <VCC>
+Z <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
